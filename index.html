@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pohenix</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="lib/fontawesome-free-6.3.0-web/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jura:wght@300&display=swap" rel="stylesheet">
+    <link rel="icon" href="img/px.png">
+</head>
+
+<body>
+
+    <!-- contenedor header -->
+    <main class="contendor-header">
+        <header class="header">
+            <nav class="navbar">
+                <div class="logo"><a href="">Pohenix</a></div>
+                <ul class="nav-item">
+                    <li><a href="#home" class="nav-link">Inicio</a></li>
+                    <li><a href="#servicios" class="nav-link">Servicios</a></li>
+                    <li><a href="#clientes" class="nav-link">Clientes</a></li>
+                    <li><a href="#contacto" class="nav-link">Contacto</a></li>
+                </ul>
+                <a onclick="openNav()" class="menu"><i class="icon-menu fa-solid fa-bars"></i></a>
+                <div id="mobile-menu" class="overlay">
+                    <a onclick="closeNav()" class="close">&times;</a>
+                    <div class="overlay-content">
+                        <a href="#home" class="nav-link">Inicio</a>
+                        <a href="#servicios" class="nav-link">Servicios</a>
+                        <a href="#clientes" class="nav-link">Clientes</a>
+                        <a href="#contacto" class="nav-link">Contacto</a>
+                    </div>
+                </div>
+            </nav>
+        </header>
+    </main>
+
+
+    <!-- section home -->
+    <section id="home" class="wow animate__fadeIn home">
+        <div class="wow animate__fadeIn contenido-home">
+            <h1 class="wow animate__rollIn title-home ">
+                Diseño y Desarrollo Web<span class="freel">Freelance</span>
+            </h1>
+            <button class="wow animate__backInLeft">
+                <a href="#contacto" class="btn-contacto">Contacto</a>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-big-right" width="52"
+                    height="52" viewBox="0 0 24 24" stroke-width="1.5" stroke="#fffcf2" fill="none"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path
+                        d="M4 9h8v-3.586a1 1 0 0 1 1.707 -.707l6.586 6.586a1 1 0 0 1 0 1.414l-6.586 6.586a1 1 0 0 1 -1.707 -.707v-3.586h-8a1 1 0 0 1 -1 -1v-4a1 1 0 0 1 1 -1z" />
+                </svg>
+            </button>
+            <div class="wow animate__fadeInDown descripcion-home">
+                <h2 class="title_descripcion">Descripcion</h2>
+                <p class="parrafo_descripcion">¡Convierte tu visión en realidad con nuestro servico de diseño web
+                    Freelancer!
+                    Creamos sitios web personalizados que destacan tu marca y atraen a tus clientes.
+                    ¡Eleva tu presencia en línea con nosotros hoy mismo!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- section servicios -->
+    <section id="servicios" class="servicios">
+        <h2 class="title-sections">Mis servicios</h2>
+        <hr class="hr-titles">
+        <div class="contenido-servicios">
+            <div class="cards_servicios">
+                <p class="icon-service"><i class="icon-service fa-solid fa-palette"></i></p>
+                <h3 class="title_service">Diseño Web</h3>
+                <p class="parrafo_card">Mi servicio de diseño web personalizado crea obras de arte únicas en cada
+                    página.
+                    Como diseñador apasionado, destacaré la identidad de tu marca con un sitio web elegante y funcional.
+                    Cada detalle se cuida para brindar una experiencia de usuario excepcional.
+                    ¡Llevemos tu presencia digital al siguiente nivel!</p>
+            </div>
+            <div class="cards_servicios">
+                <p class="icon-service"><i class="icon-service fa-brands fa-android"></i><i
+                        class="icon-service fa-brands fa-apple"></i></p>
+                <h3 class="title_service">Aplicaciones Web</h3>
+                <p class="parrafo_card">Construiré aplicaciones web a medida que optimicen la interacción con tus
+                    usuarios y mejoren la eficiencia de tu negocio.
+                    Estaré contigo en cada paso del proceso para garantizar una solución de primera categoría.</p>
+            </div>
+            <div class="cards_servicios">
+                <p class="icon-service"><i class=" fa-solid fa-code"></i></p>
+                <h3 class="title_service">Codigo</h3>
+                <p class="parrafo_card">Mi pasión por el código se refleja en cada proyecto que emprendamos.
+                    Construiré una base sólida para tus soluciones tecnológicas, desde páginas web elegantes hasta
+                    sistemas complejos.
+                    ¡Permíteme ser tu socio en la innovación digital!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- section clientes -->
+    <section id="clientes" class="clientes">
+        <h2 class="title-sections">Clientes satisfechos</h2>
+        <hr class="hr-titles">
+        <div class="contenido-clientes">
+            <div class="cards_clientes">
+                <p class="parrrafo_clientes">
+                    "Encantado con el diseño web recibido. Mi sitio luce moderno y atractivo, recibiendo elogios de mis
+                    clientes.
+                    ¡Gracias por el éxito en línea!"
+                </p>
+                <div class="contenido_card"><img class="img-cliente" src="img/cliente1.jpg" alt="">
+                    <h4 class="nombre_cliente">Juan perez <br>
+                        <span class="profesion-cliente">Arquitecto</span>
+                    </h4>
+                </div>
+            </div>
+            <div class="cards_clientes">
+                <p class="parrrafo_clientes">
+                    "Aplicaciones web personalizadas mejoraron nuestra eficiencia operativa.
+                    Equipo amable y profesional. ¡Los recomendaré!"
+                </p>
+                <div class="contenido_card"><img class="img-cliente" src="img/cliente2.jpeg" alt="">
+                    <h4 class="nombre_cliente">Rodrigo Medina <br>
+                        <span class="profesion-cliente">Gestor</span>
+                    </h4>
+                </div>
+            </div>
+            <div class="cards_clientes">
+                <p class="parrrafo_clientes">
+                    "Excepcional código, aplicación más rápida y estable.
+                    Gracias por su dedicación y experiencia en soluciones tecnológicas."
+                </p>
+                <div class="contenido_card"><img class="img-cliente" src="img/cliente3.jpg" alt="">
+                    <h4 class="nombre_cliente">Marcela Rodriguez <br>
+                        <span class="profesion-cliente">Peluqueria</span>
+                    </h4>
+                </div>
+            </div>
+            <div class="cards_clientes">
+                <p class="parrrafo_clientes">
+                    "Diseño web personalizado superó expectativas.
+                    Cada detalle cuidado, una obra de arte digital. ¡Emocionado por mostrarlo a todos!"
+                </p>
+                <div class="contenido_card"><img class="img-cliente" src="img/cliente4.jpg" alt="">
+                    <h4 class="nombre_cliente">Luna Sujatovic <br>
+                        <span class="profesion-cliente">Musico</span>
+                    </h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="footer">
+        <div class="contacto dos-columnas">
+            <div class="entrada-foot">
+                <h3 class="wow animate__flash title-footer">Gracias por elegirnos!</h3>
+                <p class="wow animate__pulse parrafo_footer">
+                    Tu confianza en nuestros servicios es invaluable.
+                    Estamos emocionados de ser parte de tu proyecto y trabajaremos arduamente para brindarte resultados
+                    excepcionales.
+                    ¡Esperamos hacer realidad tus objetivos juntos!
+                    Atentamente, PHOENIX.
+                </p>
+                <ul class=" redes">
+                    <li><a href=""><i class="icon-footer fa-brands fa-square-facebook"></i></a></li>
+                    <li><a href=""><i class="icon-footer fa-brands fa-instagram"></i></a></li>
+                    <li><a href=""><i class="icon-footer fa-brands fa-square-twitter"></i></a></li>
+                    <li><a href=""><i class="icon-footer fa-brands fa-whatsapp"></i></a></li>
+                </ul>
+            </div>
+            <div class="entrada-foot">
+                <form class="form" id="contacto">
+                    <h5 class="title-contacto">Contacto</h5>
+                    <div class="inputbox">
+                        <input placeholder="Tu nombre" required="required" type="text">
+                        <i></i>
+                    </div>
+                    <div class="inputbox">
+                        <input placeholder="telefono" required="required" type="text">
+                        <i></i>
+                    </div>
+                    <div class="inputbox">
+                        <input placeholder="email" required="required" type="text">
+                        <i></i>
+                    </div>
+                    <div class="inputbox">
+                        <textarea placeholder="Tu mensaje" class="mensaje" name="Mensaje" id="" cols="30" rows="10">
+                    </textarea>
+                    </div>
+                    <button class="submit">Enviar</button>
+                </form>
+            </div>
+        </div>
+
+        <!-- scripts -->
+        <script src="js/main.js"></script>
+        <script src="lib/fontawesome-free-6.3.0-web/js/all.min.js"></script>
+        <script src="lib/wow.min.js"></script>
+        <script>
+            new WOW().init();
+        </script>
+
+
+</body>
+
+</html>
